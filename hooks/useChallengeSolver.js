@@ -1,4 +1,5 @@
-import { create } from "zustand";
+// Custom hook for challenge solving logic
+import { useState, useEffect, useCallback } from 'react';
 import { runValidation } from "@/lib/validation/runner";
 import { scoreSubmission } from "@/lib/validation/scorer";
 
