@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: #0a0a0a;
+  --color-bg-card: #111111;
+  --color-bg-elevated: #1a1a1a;
+  --color-border-subtle: #2a2a2a;
+  --color-accent-green: #00ff87;
+  --color-accent-cyan: #00d4ff;
+  --color-danger: #ff4444;
+  --color-warning: #ffaa00;
+}
+
+body {
+  background: #0a0a0a;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a;
+}
+
+::-webkit-scrollbar-corner {
+  background: #1a1a1a;
+}
+
+/* Landing Page Background Effects */
+.landing-grid {
+  background-image: 
+    linear-gradient(rgba(0, 255, 135, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 135, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.landing-scanlines {
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 135, 0.1) 2px,
+    rgba(0, 255, 135, 0.1) 4px
+  );
+}
