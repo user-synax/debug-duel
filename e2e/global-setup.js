@@ -1,3 +1,4 @@
+// Global setup for E2E tests
 const { TEST_USERS, TEST_CHALLENGES, TEST_DAILY_CHALLENGE } = require('./fixtures/testData.js')
 const bcrypt = require('bcryptjs')
 const mongoose = require('mongoose')
