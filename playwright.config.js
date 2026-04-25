@@ -1,3 +1,4 @@
+// Playwright E2E test configuration
 import { defineConfig, devices } from '@playwright/test'
 
 export default defineConfig({
