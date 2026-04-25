@@ -1,3 +1,4 @@
+// Challenge model schema for MongoDB
 const mongoose = require("mongoose");
 
 const challengeSchema = new mongoose.Schema({
