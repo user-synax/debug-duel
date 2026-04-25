@@ -1,3 +1,4 @@
+// Jest configuration for DebugDuel testing
 const nextJest = require('next/jest')
 
 const createJestConfig = nextJest({
