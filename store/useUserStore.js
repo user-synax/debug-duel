@@ -1,4 +1,5 @@
-import { create } from "zustand";
+// User state management with Zustand
+import { create } from 'zustand';
 
 const useUserStore = create((set) => ({
   user: null,
