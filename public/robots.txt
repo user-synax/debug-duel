@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://debugduel.vercel.app/sitemap.xml
