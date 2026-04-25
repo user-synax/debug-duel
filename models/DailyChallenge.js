@@ -1,3 +1,4 @@
+// Daily challenge model schema for MongoDB
 import mongoose from "mongoose";
 
 const dailyChallengeSchema = new mongoose.Schema({
